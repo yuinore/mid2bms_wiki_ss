@@ -41,7 +41,7 @@
  ] &nbsp;
 
  [
-    <a href="../index%3Fcmd=list" >一覧</a>  | <a href="http://wiki.mid2bms.net/?cmd=search" >単語検索</a> <!-- recent -->
+    <a href="../index.html%3Fcmd=list" >一覧</a>  | <a href="http://wiki.mid2bms.net/?cmd=search" >単語検索</a> <!-- recent -->
  <!-- help -->
    ]
 </small>
@@ -60,7 +60,7 @@
 ┃┣  <a href="曲を作る" title="チュートリアル/曲を作る (2298d)">曲を作る</a> <br />
 ┃┣  <a href="色分け" title="チュートリアル/色分け (2309d)">色分け</a> <br />
 ┃┣  <strong><a href="Blueモード" title="チュートリアル/Blueモード (2272d)">Blueモード</a></strong> <img alt="[heart]" src="../image/face/heart.png" /> <br />
-┃┣  <a href="Purpleモード" title="チュートリアル/Purpleモード (2297d)">Purpleモード</a> <br />
+┃┣  <a href="Purpleモード" title="チュートリアル/Purpleモード (2298d)">Purpleモード</a> <br />
 ┃┣  <a href="Redモード" title="チュートリアル/Redモード (2298d)">Redモード</a> <br />
 ┃┣  <a href="Greenモード" title="チュートリアル/Greenモード (2307d)">Greenモード</a> <br />
 ┃┣  <a href="Yellowモード" title="チュートリアル/Yellowモード (2307d)">Yellowモード</a> <br />
@@ -103,7 +103,7 @@
 <div><strong>2024-07-03</strong>
 <ul>
  <li><a href="/" title="FrontPage (1h)">FrontPage</a></li>
- <li><a href="../RecentDeleted" title="RecentDeleted (1h)">RecentDeleted</a></li>
+ <li><a href="../RecentDeleted" title="RecentDeleted (2h)">RecentDeleted</a></li>
 </ul>
 <strong>2019-10-13</strong>
 <ul>
@@ -161,8 +161,8 @@
 </ul>
 <strong>2018-03-20</strong>
 <ul>
- <li><a href="../リファレンス/text5_renamer_array.txt" title="リファレンス/text5_renamer_array.txt (2297d)">リファレンス/text5_renamer_array.txt</a></li>
- <li><a href="Purpleモード" title="チュートリアル/Purpleモード (2297d)">チュートリアル/Purpleモード</a></li>
+ <li><a href="../リファレンス/text5_renamer_array.txt" title="リファレンス/text5_renamer_array.txt (2298d)">リファレンス/text5_renamer_array.txt</a></li>
+ <li><a href="Purpleモード" title="チュートリアル/Purpleモード (2298d)">チュートリアル/Purpleモード</a></li>
  <li><a href="../リファレンス/WaveSplitter" title="リファレンス/WaveSplitter (2298d)">リファレンス/WaveSplitter</a></li>
 </ul>
 </div>
@@ -201,37 +201,37 @@
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h2 id="content_1_3">MIDI出力の準備  <a class="anchor_super" id="zc9baed0" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#zc9baed0" title="zc9baed0">&dagger;</a></h2>
 <p>Redモードで音切りをする場合も、プロジェクトを別名保存し、元のプロジェクトを破壊してしまわないようにします。Blueモードの場合と同様に、不要なトラックを削除し、適切にトラック名などを設定します。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_026.png" title="tutorial_026.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_026.png" alt="tutorial_026.png" title="tutorial_026.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_026.png" title="tutorial_026.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_026.png" alt="tutorial_026.png" title="tutorial_026.png" width="600" height="auto" /></a></p>
 <p>Redモードの音切りにおいては、WAVファイルの個数が不必要に増えるのを防ぐため、「音切り時において同じ音は１回」という原則を守る必要があります。<del>例えば以下の画像では、緑色のクリップ及び青色のクリップは、それぞれ全く同じ音を出すので、それぞれ１度だけ出現しなければなりません。通常は最初のクリップを残して残りを削除します。</del>（TODO:画像追加）</p>
 <p>また、ノーツとオートメーションを同一のMidiトラックに格納することが推奨されます。ただし、テンポチェンジなどの場合はこれが出来ませんので、必ずしもこの限りではありません。どのようにするとノーツとオートメーションが同一のトラックに格納されるか、というのはDAWごとに異なりますので、MIDIシーケンサーなどでMIDIファイルの確認をするなどを行って下さい。MID2BMSのAnalyze MIDIツールを使用して確認しても構いません。下の図では、bass1というトラックの、ロータリー1という未使用のマクロコントローラーに、オートメーションを割り当てていることがわかります。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_027.png" title="tutorial_027.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_027.png" alt="tutorial_027.png" title="tutorial_027.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_027.png" title="tutorial_027.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_027.png" alt="tutorial_027.png" title="tutorial_027.png" width="600" height="auto" /></a></p>
 <p>準備が出来たら、作業用のフォルダにMIDIファイルを書き出します。</p>
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h2 id="content_1_4">[1]Mid2MML  <a class="anchor_super" id="f0f6bc41" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#f0f6bc41" title="f0f6bc41">&dagger;</a></h2>
 <p>Mid2BMSの[1]Mid2MMLタブを開き、先ほど出力したMIDIをドラッグ＆ドロップします。Redモードの場合は、<strong>red mode</strong>を選択しておきます。また、<strong>開始wav定義番号</strong>の右にある<strong>&lt;=</strong>ボタンをクリックします。これにより、WAV定義番号の開始番号が更新されます。さらに、<strong>BMSチャンネル11-29には配置しない</strong>に必ずチェックを入れます。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_028.png" title="tutorial_028.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_028.png" alt="tutorial_028.png" title="tutorial_028.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_028.png" title="tutorial_028.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_028.png" alt="tutorial_028.png" title="tutorial_028.png" width="600" height="auto" /></a></p>
 <p><strong>tanon_smfをシーケンスレイヤーとして書き出す</strong>のチェックですが、先ほどノーツとオートメーションを同一のトラックに格納した場合はチェックを外します。また、テンポ変化を含む場合はチェックを付けます。</p>
 <p>設定が完了したら、処理開始ボタンを押します。トラック名の確認ダイアログが出ますので、変更するをクリックします。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_029.png" title="tutorial_029.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_029.png" alt="tutorial_029.png" title="tutorial_029.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_029.png" title="tutorial_029.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_029.png" alt="tutorial_029.png" title="tutorial_029.png" width="600" height="auto" /></a></p>
 <p>Blueモードと同様に、以下の説明に従って設定を変更してください。各項目の詳細な説明は<a href="../リファレンス/Mid2MML#fd75b021" title="リファレンス/Mid2MML (2284d)">リファレンス</a>を参照してください。</p>
 <ul class="list1" style="padding-left:16px;margin-left:16px"><li>トラック名に誤りがあるトラック　→　トラック名を修正（New TrackNameの列を編集）</li>
 <li>BMSに1音階あたり1レーンとして配置したい場合、特にドラムパートの場合　→　Drums?にチェック</li>
 <li>特定のトラックを無視したい場合　→　Ignore?にチェック</li>
 <li>和音を１つのキー音として扱いたいトラック　→　Chord?にチェック</li></ul>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_030.png" title="tutorial_030.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_030.png" alt="tutorial_030.png" title="tutorial_030.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_030.png" title="tutorial_030.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_030.png" alt="tutorial_030.png" title="tutorial_030.png" width="600" height="auto" /></a></p>
 <p>その後、適用ボタンを押すと、いくつかのファイルが出力されます。一部のファイルは上書きされます。</p>
 <ul class="list1" style="padding-left:16px;margin-left:16px"><li>text3_tanon_smf_red.mid</li>
 <li>text5_renamer_array.txt</li>
 <li>text6_bms_red.txt</li>
 <li>text9_trackname_csv.txt</li></ul>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_031.png" title="tutorial_031.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_031.png" alt="tutorial_031.png" title="tutorial_031.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_031.png" title="tutorial_031.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_031.png" alt="tutorial_031.png" title="tutorial_031.png" width="600" height="auto" /></a></p>
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h2 id="content_1_5">DAWへのMIDI読み込みとWAV出力  <a class="anchor_super" id="od8ac157" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#od8ac157" title="od8ac157">&dagger;</a></h2>
 <p>この後、Blueモードの場合と同様に、単一の単音WAVファイルを使用するかどうかで作業が分岐します。</p>
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h3 id="content_1_6">パラアウトを用いない場合（単一の単音WAVファイルを使用する場合）  <a class="anchor_super" id="mb78ee9e" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#mb78ee9e" title="mb78ee9e">&dagger;</a></h3>
 <p>元の楽曲のプロジェクトファイルを開き、上書き保存してしまわないように、別名で保存します。このプロジェクトからすべてのノーツを削除します。その後、先程出力されたMIDIファイルを読み込み、読み込んだMIDIに含まれるノーツとオートメーションのそれぞれを適切なトラックに配置します。ノーツがタイムライン上で重なっている場合は、読み込んだトラックの順番になるよう、下図のように階段状に時刻をずらしてください。その後、通常と同じ方法でWAV音源の書き出しを行います。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_032.png" title="tutorial_032.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_032.png" alt="tutorial_032.png" title="tutorial_032.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_032.png" title="tutorial_032.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_032.png" alt="tutorial_032.png" title="tutorial_032.png" width="600" height="auto" /></a></p>
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h3 id="content_1_7">パラアウトを用いる場合（音源を複数wavファイルとする場合）  <a class="anchor_super" id="tee03eca" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#tee03eca" title="tee03eca">&dagger;</a></h3>
 <p>要加筆。</p>
@@ -239,19 +239,19 @@
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h2 id="content_1_8">[2]WaveSplitter  <a class="anchor_super" id="z51f2963" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#z51f2963" title="z51f2963">&dagger;</a></h2>
 <p>次に、Mid2BMSの[2]WaveSplitterタブを開き、text5_renamer_array.txt をドラッグ＆ドロップします。</p>
 <p>また、単一の単音WAVファイルを使用する場合は、単一のWAVファイルを使用するにチェックを入れ、先ほど書き出したWAVファイルをドラッグ＆ドロップします。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_033.png" title="tutorial_033.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_033.png" alt="tutorial_033.png" title="tutorial_033.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_033.png" title="tutorial_033.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_033.png" alt="tutorial_033.png" title="tutorial_033.png" width="600" height="auto" /></a></p>
 <p>音切り開始ボタンを押すと、WAVファイルが切り出され、完了メッセージが出力されます。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_034.png" title="tutorial_034.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_034.png" alt="tutorial_034.png" title="tutorial_034.png" width="510" height="188" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_034.png" title="tutorial_034.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_034.png" alt="tutorial_034.png" title="tutorial_034.png" width="510" height="188" /></a></p>
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h2 id="content_1_9">音切り結果の確認とやり直し  <a class="anchor_super" id="o98e7c0e" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#o98e7c0e" title="o98e7c0e">&dagger;</a></h2>
 <p>最初の方で出力された、text6_bms_red.txt ファイルを必ず複製し、元のファイルは残しておきます。その後、複製したファイルの拡張子を .bms に変更します。ここでさらにファイル名の頭にアンダーバーを付けておくと良いでしょう。ここでは_red.bmsというファイル名にしたとします。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_035.png" title="tutorial_035.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_035.png" alt="tutorial_035.png" title="tutorial_035.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_035.png" title="tutorial_035.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_035.png" alt="tutorial_035.png" title="tutorial_035.png" width="600" height="auto" /></a></p>
 <p><strong>このファイルをメモ帳で開き、text6_bms_blue.txtの内容すべてを_red.bmsの先頭に貼り付け、上書き保存します。</strong>一度でもBMSEやiBMSCで編集したファイルを使用してはいけません。Purpleモードでの音切りを行った場合は、_red.bmsの先頭にtext6_bms_purple.txtの内容を貼り付けた後、その先頭にtext6_bms_blue.txtを貼り付けます。（結果として、音切りを行った順にデータが格納されるようにします。）</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_036.png" title="tutorial_036.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_036.png" alt="tutorial_036.png" title="tutorial_036.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_036.png" title="tutorial_036.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_036.png" alt="tutorial_036.png" title="tutorial_036.png" width="600" height="auto" /></a></p>
 <p>このBMSファイルをrenamedフォルダへ移動します。キー音のWAVファイルとBMSファイルが両方フォルダ内にあることを確認します。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_037.png" title="tutorial_037.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_037.png" alt="tutorial_037.png" title="tutorial_037.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_037.png" title="tutorial_037.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_037.png" alt="tutorial_037.png" title="tutorial_037.png" width="600" height="auto" /></a></p>
 <p>iBMSCやLR2などでこのBMSを開き、正常に音切りが出来ているかどうか確認します。</p>
-<p><a href="http://wiki.mid2bms.net/?plugin=attach&amp;refer=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;openfile=tutorial_038.png" title="tutorial_038.png"><img src="http://wiki.mid2bms.net/?plugin=ref&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%2FRed%E3%83%A2%E3%83%BC%E3%83%89&amp;src=tutorial_038.png" alt="tutorial_038.png" title="tutorial_038.png" width="600" height="auto" /></a></p>
+<p><a href="../index.html%3Fplugin=attach&amp;refer=チュートリアル%252FRedモード&amp;openfile=tutorial_038.png" title="tutorial_038.png"><img src="../index.html%3Fplugin=ref&amp;page=チュートリアル%252FRedモード&amp;src=tutorial_038.png" alt="tutorial_038.png" title="tutorial_038.png" width="600" height="auto" /></a></p>
 <p>もしここで正常に音切りができていなかった場合は、<a href="../TIPS/音切りに失敗したら" title="TIPS/音切りに失敗したら (2095d)">TIPS/音切りに失敗したら</a>などを参考にして、音切りのやり直しを行ってください。</p>
 
 <div class="jumpmenu"><a href="Redモード#navigator">&uarr;</a></div><h2 id="content_1_10">オブジェの複製による楽曲シーケンスの復元  <a class="anchor_super" id="xdb01e24" href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89#xdb01e24" title="xdb01e24">&dagger;</a></h2>
@@ -270,7 +270,7 @@
  <a href="/"><img src="../image/top.png" width="20" height="20" alt="トップ" title="トップ" /></a>
  &nbsp;
   <a href="http://wiki.mid2bms.net/?cmd=diff&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89"><img src="../image/diff.png" width="20" height="20" alt="差分" title="差分" /></a>	<a href="http://wiki.mid2bms.net/?cmd=backup&amp;page=%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89"><img src="../image/backup.png" width="20" height="20" alt="バックアップ" title="バックアップ" /></a> <a href="http://wiki.mid2bms.net/?%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/Red%E3%83%A2%E3%83%BC%E3%83%89"><img src="../image/reload.png" width="20" height="20" alt="リロード" title="リロード" /></a> &nbsp;
- <a href="../index%3Fcmd=list"><img src="../image/list.png" width="20" height="20" alt="一覧" title="一覧" /></a> <a href="http://wiki.mid2bms.net/?cmd=search"><img src="../image/search.png" width="20" height="20" alt="単語検索" title="単語検索" /></a> <a href="http://wiki.mid2bms.net/?RecentChanges"><img src="../image/recentchanges.png" width="20" height="20" alt="最終更新" title="最終更新" /></a> &nbsp; <a href="http://wiki.mid2bms.net/?Help"><img src="../image/help.png" width="20" height="20" alt="ヘルプ" title="ヘルプ" /></a> &nbsp; <a href="http://wiki.mid2bms.net/?cmd=rss&amp;ver=1.0"><img src="../image/rss.png" width="36" height="14" alt="最終更新のRSS" title="最終更新のRSS" /></a></div>
+ <a href="../index.html%3Fcmd=list"><img src="../image/list.png" width="20" height="20" alt="一覧" title="一覧" /></a> <a href="http://wiki.mid2bms.net/?cmd=search"><img src="../image/search.png" width="20" height="20" alt="単語検索" title="単語検索" /></a> <a href="http://wiki.mid2bms.net/?RecentChanges"><img src="../image/recentchanges.png" width="20" height="20" alt="最終更新" title="最終更新" /></a> &nbsp; <a href="http://wiki.mid2bms.net/?Help"><img src="../image/help.png" width="20" height="20" alt="ヘルプ" title="ヘルプ" /></a> &nbsp; <a href="http://wiki.mid2bms.net/?cmd=rss&amp;ver=1.0"><img src="../image/rss.png" width="36" height="14" alt="最終更新のRSS" title="最終更新のRSS" /></a></div>
 
 <div id="lastmodified">Last-modified: 2018-03-20 (火) 00:00:37  (2298d)</div>
 
@@ -278,7 +278,7 @@
 <div id="footer">
  Site admin: <a href="https://twitter.com/yuinore">yuinore</a><p />
  <strong>PukiWiki 1.5.1</strong> &copy; 2001-2016 <a href="http://pukiwiki.osdn.jp/">PukiWiki Development Team</a>.
- Powered by PHP 7.0.33-0ubuntu0.16.04.16. HTML convert time: 0.012 sec.
+ Powered by PHP 7.0.33-0ubuntu0.16.04.16. HTML convert time: 0.019 sec.
 </div>
 
 </div>
